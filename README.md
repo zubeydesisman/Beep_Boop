@@ -16,14 +16,17 @@ Numbers that contain a 3: all digits are replaced (all digits) with "I'm sorry, 
 These exceptions are written from least to most important. The first exception should apply unless the second exception does, and the same with the second and third. So, for example, in your finished program,
 
 The number 13 should be replaced with "I'm sorry, Dave. I'm afraid I can't do that."
-The number 21 should be replaced with "Boop".
+The number 21 should be replaced with "Boop!".
 The number 32 should be replaced with "I'm sorry, Dave. I'm afraid I can't do that."
 A user should be able to enter a new number and see new results over and over again.
 ##Specs:
 
-Spec: The program returns a range of numbers from 0 to the users inputted number
+Spec1: The program returns a range of numbers from 0 to the users inputted number
 Input: "4"
 Output: "0, 1, 2, 3, 4"
+Spec2:Make a loop which is returning input number a range ;
+Spec3:In the same loop make some conditinal function to meet project objectives; suc as 3 returs "I'm sorry, Dave. I'm afraid I can't do that,"2 returns "Boop!",1 returns "Beep!".
+Spec4: Show the results.
 ## Setup/Installation Requirements
 
 * Clone this repo:
@@ -41,7 +44,7 @@ Output: "0, 1, 2, 3, 4"
 
 ## Technologies Used
 
-_Git Github  HTML Atom Terminal CSS jQuery JavaScript 
+_Git Github  HTML Atom Terminal CSS jQuery JavaScript
 
 ### License
 
