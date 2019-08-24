@@ -4,13 +4,18 @@ $(document).ready(function() {
     var numbers = $("input#number").val();
   //  console.log(numbers);
     var splitNumbers = numbers.split();
-          console.log(splitNumbers);
+      //    console.log(splitNumbers);
+     var thirt = ["I'm sorry, Dave. I'm afraid I can't do that."]
      var range = [];
      for (var i = 0; i<=numbers; i++)
-    var newRange = range.push(i);
-     console.log(range);
-//}
-
+     range.push(i);
+// console.log(range);
+     var conditionsNumber = [1,2,3];
+     if (range[i] === (conditionsNumber[2])) {
+       range[i] = thirt
+       console.log(range);
+     }
+    //var thirt = ["I'm sorry, Dave. I'm afraid I can't do that."]
 
 
 
