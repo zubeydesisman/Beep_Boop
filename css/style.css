@@ -1,3 +1,14 @@
 #result {
   display: none;
 }
+.lastOutput {
+  color: red;
+  text-align: center;
+}
+.container {
+  text-align: center;
+  color: red;
+}
+.form-group {
+  font-style: italic;
+}

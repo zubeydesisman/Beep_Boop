@@ -2,7 +2,6 @@ $(document).ready(function() {
   $("form#numbers").submit(function(event) {
     event.preventDefault();
     var userInput = $("input#number").val();
-
     var output = [];
     for (var sayi = 0; sayi<=userInput; sayi++) {
       if (sayi.toString().includes("3")) {
@@ -16,9 +15,9 @@ $(document).ready(function() {
       }
 
     }
-var lastOutput = output.join(', ');
+    var lastOutput = output.join(', ');
     $(".lastOutput").text(lastOutput);
-      $("#result").show();
+    $("#result").show();
     console.log(output);
 
   });

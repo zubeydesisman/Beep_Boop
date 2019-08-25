@@ -22,10 +22,10 @@ A user should be able to enter a new number and see new results over and over ag
 ##Specs:
 
 Spec1: The program returns a range of numbers from 0 to the users inputted number
-Input: "4"
-Output: "0, 1, 2, 3, 4"
+  Input: "4"
+  Output: "0, 1, 2, 3, 4"
 Spec2:Make a loop which is returning input number a range ;
-Spec3:In the same loop make some conditinal function to meet project objectives; suc as 3 returs "I'm sorry, Dave. I'm afraid I can't do that,"2 returns "Boop!",1 returns "Beep!".
+Spec3:In the same loop make some conditional function to meet project objectives; such as; 3 returns "I'm sorry, Dave. I'm afraid I can't do that,"2 returns "Boop!",1 returns "Beep!".
 Spec4: Show the results.
 ## Setup/Installation Requirements
 
@@ -35,11 +35,11 @@ Spec4: Show the results.
 
 ## Known Bugs
 
-* Work in progress.
+* There is no known bugs.
 
 ## Support and contact details
 
- zubeydesisman@gmail.com
+zubeydesisman@gmail.com
 
 
 ## Technologies Used
